@@ -7,6 +7,7 @@ import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import Chatbot from './components/Chatbot';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -29,6 +30,7 @@ export default function App() {
         )}
       </main>
       <Footer setCurrentPage={setCurrentPage} />
+      <Chatbot />
     </div>
   );
 }
