@@ -41,7 +41,7 @@ export default function Navbar({ currentPage, setCurrentPage }: NavbarProps) {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 cursor-pointer" onClick={(e) => handleNavClick(e, 'home', '#')}>
             <span className="font-sans font-black italic text-3xl tracking-tighter text-text-main">
-              GRI<span className="text-brand">ND.</span>
+              GRIND<span className="text-brand">GYM.</span>
             </span>
           </div>
           

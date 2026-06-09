@@ -1,6 +1,6 @@
 {
-  "name": "Grind Gym",
-  "description": "A high-impact landing page for Grind Gym, featuring programs, testimonials, and membership plans.",
+  "name": "Grindgym",
+  "description": "A high-impact landing page for Grindgym, featuring programs, testimonials, and membership plans.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

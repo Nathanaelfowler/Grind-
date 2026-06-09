@@ -29,7 +29,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
           
           <div className="md:col-span-1">
             <span onClick={(e) => handleNavClick(e as any, 'home', '#')} className="font-sans font-black italic text-3xl tracking-tighter text-text-main inline-block mb-4 cursor-pointer">
-              GRI<span className="text-brand">ND.</span>
+              GRIND<span className="text-brand">GYM.</span>
             </span>
             <p className="text-slate-500 font-light text-sm leading-relaxed max-w-xs">
               Elite coaching, hardcore community, and results-driven training for those who refuse to be average.
@@ -79,7 +79,7 @@ export default function Footer({ setCurrentPage }: FooterProps) {
 
         <div className="border-t border-border-subtle pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-600 font-light text-xs">
-            © {new Date().getFullYear()} Grind Gym. All rights reserved.
+            © {new Date().getFullYear()} Grindgym. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-slate-600 hover:text-brand font-light text-xs">Privacy Policy</a>
